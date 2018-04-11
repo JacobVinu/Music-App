@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C9299D207E3EB10084D5B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C9299C207E3EB10084D5B7 /* Assets.xcassets */; };
 		844C5FD420455A1700097D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C5FD320455A1700097D55 /* main.m */; };
 		844C5FD720455A1700097D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C5FD620455A1700097D55 /* AppDelegate.m */; };
 		844C5FDA20455A1700097D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C5FD920455A1700097D55 /* ViewController.m */; };
 		844C5FDD20455A1700097D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C5FDB20455A1700097D55 /* Main.storyboard */; };
-		844C5FDF20455A1700097D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844C5FDE20455A1700097D55 /* Assets.xcassets */; };
 		844C5FE220455A1700097D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C5FE020455A1700097D55 /* LaunchScreen.storyboard */; };
 		844C5FED20455A1800097D55 /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C5FEC20455A1800097D55 /* MusicPlayerTests.m */; };
 		844C5FF820455A1900097D55 /* MusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C5FF720455A1900097D55 /* MusicPlayerUITests.m */; };
@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52C9299C207E3EB10084D5B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844C5FCF20455A1500097D55 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844C5FD320455A1700097D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		844C5FD520455A1700097D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		844C5FD820455A1700097D55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		844C5FD920455A1700097D55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		844C5FDC20455A1700097D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		844C5FDE20455A1700097D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844C5FE120455A1700097D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844C5FE320455A1700097D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844C5FE820455A1800097D55 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +127,7 @@
 				844C5FD820455A1700097D55 /* ViewController.h */,
 				844C5FD920455A1700097D55 /* ViewController.m */,
 				844C5FDB20455A1700097D55 /* Main.storyboard */,
-				844C5FDE20455A1700097D55 /* Assets.xcassets */,
+				52C9299C207E3EB10084D5B7 /* Assets.xcassets */,
 				844C5FE020455A1700097D55 /* LaunchScreen.storyboard */,
 				844C5FE320455A1700097D55 /* Info.plist */,
 				844C5FD220455A1700097D55 /* Supporting Files */,
@@ -293,9 +293,9 @@
 			files = (
 				844C5FE220455A1700097D55 /* LaunchScreen.storyboard in Resources */,
 				844C60332045619D00097D55 /* PlayButton.png in Resources */,
-				844C5FDF20455A1700097D55 /* Assets.xcassets in Resources */,
 				844C5FDD20455A1700097D55 /* Main.storyboard in Resources */,
 				844C60312045614500097D55 /* NextButton.png in Resources */,
+				52C9299D207E3EB10084D5B7 /* Assets.xcassets in Resources */,
 				844C602F2045611300097D55 /*  PreviousButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
